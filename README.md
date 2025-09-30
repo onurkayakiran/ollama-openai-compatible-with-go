@@ -23,8 +23,8 @@ This project provides a REST API that is compatible with the OpenAI API format, 
 
 1. Clone the repository:
 ```bash
-git clone <repo-url>
-cd openai-compatible
+git clone https://github.com/onurkayakiran/ollama-openai-compatible-with-go.git
+cd ollama-openai-compatible-with-go
 ```
 
 2. Install dependencies:
@@ -52,6 +52,7 @@ OLLAMA_MODEL=llama3.2:latest
 
 5. Make sure Ollama is running:
 ```bash
+ollama pull llama3.2:latest
 ollama serve
 ```
 
